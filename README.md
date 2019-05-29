@@ -45,10 +45,11 @@ The 2 data files used for this project were obtained from Udacity.com as part of
 
 ## Further Work
 
-1. Change the SVD recommender so that it recommends m recs per user rather than m x num_users recommendations overall.  
-2. Compare with methods in the [Surprise library](http://surpriselib.com/).  
-3. Rugplot (or alternative) to illustrate temporal distribution of users in dataset.   
-4. Use of Jaccard or Cosine similarity metric for Neighbourhood filter.  
-5. Refactor into fit and transform methods accessable through library.  
+- Investigate if test is measuring actual data against m recommendations for each method and that predictions are not getting removed during the trimming process.  
+- Change the SVD recommender so that it recommends m recommendations per user rather than m x num_users recommendations overall.  
+- Compare with methods in the [Surprise library](http://surpriselib.com/).  
+- Rugplot (or alternative) to illustrate temporal distribution of users in dataset.   
+- Use of Jaccard or Cosine similarity metric for Neighbourhood filter.  
+- Refactor into fit and transform methods accessable through library.  
 
 
